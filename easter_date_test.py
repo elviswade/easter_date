@@ -1,15 +1,18 @@
-#Do not modify the code in this file
-#Test for easter date
+# Do not modify the code in this file
+# Test for easter date
 
 import os.path
 import sys
+from unittest import TestCase
+
 from easter_date import main
 from tud_test_base import *
 
-def easter_date_test():
+
+def test_easter_date():
     try:
         exists = os.path.exists("easter_date.py")
-        assert  exists == True
+        assert exists == True
     except:
         sys.exit()
 
@@ -20,3 +23,4 @@ def easter_date_test():
         "Enter year: ",
         "In 2001 Easter Sunday is on 4/15/2001."
     ]
+
