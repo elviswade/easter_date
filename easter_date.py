@@ -1,18 +1,18 @@
-def main():
-  #File:easter_date.py
-  #Description:this program calculates the month and day of the Easter holiday for any given year using the formula\
-  # known as the computus
-  #AssignmentNumber:2
-  #
-  #Name:Elvis Nii Oblitey Commey
-  #SID:easter_date.py6
-  #Email:3231230034live@gctu.edu.gh
-  #Grader:Augustus
-  #Slip days this assignment:
-  #
-  #On my honor,Elvis Nii Oblitey Commey, this programming assignment is my own work
-  #and I have not provided this code to any other student.
+#File:easter_date.py
+#Description:this program calculates the month and day of the Easter holiday for any given year using the formula\
+#known as the computus
+#AssignmentNumber:2
+#
+#Name:Elvis Nii Oblitey Commey
+#SID:easter_date.py6
+#Email:3231230034live@gctu.edu.gh
+#Grader:Augustus
+#Slip days this assignment:
+#
+#On my honor,Elvis Nii Oblitey Commey, this programming assignment is my own work
+#and I have not provided this code to any other student.
 
+def main():
   year=int(input("Enter_year?: "))
   lunar_year_cycle_position=(year//19)
   weekday_slide_part_1=(year//4)
